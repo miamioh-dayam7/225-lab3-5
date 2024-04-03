@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/dayam7'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/miamioh-dayam7/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('dayam7-test-credentials')                                                         //<------change this
+        KUBECONFIG = credentials('dayam7-225)                                                         //<------change this
     }
 
     stages {
